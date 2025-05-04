@@ -1,0 +1,74 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Keisa",
+	"patterns": [
+		{
+			"name": "markup.heading.keisa",
+			"match": "^#+(.+)$"
+		},
+		{
+			"name": "variable.parameter.keisa",
+			"match": "^-(.+)$"
+		},
+		{
+			"name": "comment.line.keisa",
+			"match": "^>(.+)$"
+		},
+		{
+			"name": "markup.bold.keisa",
+			"match": "\\*([^*]+)\\*"
+		},
+		{
+			"name": "markup.italic.keisa",
+			"match": "`([^`]+)`"
+		},
+		{
+			"name": "keyword.operator.keisa",
+			"match": "\\$(\\s+)(\\w+)(\\s+)(\\w+)",
+			"captures": {
+				"2": {
+					"name": "entity.name.type.keisa"
+				},
+				"4": {
+					"name": "variable.other.keisa"
+				}
+			}
+		},
+		{
+			"name": "meta.label.keisa",
+			"match": "([a-zA-Z_]+):(\\s|$)",
+			"captures": {
+				"1": {
+					"name": "entity.name.tag.keisa"
+				},
+				"2": {
+					"name": "keyword.operator.keisa"
+				},
+				"3":{
+					"name": "storage.modifier.keisa"
+				}
+			}
+		},
+		{
+			"name": "constant.numeric.decimal.keisa",
+			"match": "\\b\\d+(\\.\\d+)?\\b"
+		},
+		{
+			"name": "constant.numeric.binary.keisa",
+			"match": "\\b0b[01]+(\\.[01]+)?\\b"
+		},
+		{
+			"name": "constant.numeric.octal.keisa",
+			"match": "\\b0o[0-7]+(\\.[0-7]+)?\\b"
+		},
+		{
+			"name": "constant.numeric.hexadecimal.keisa",
+			"match": "\\b0x[0-9a-fA-F]+(\\.[0-9a-fA-F]+)?\\b"
+		},
+		{
+			"name": "string.unquoted.keisa",
+			"match": ".+"
+		}
+	],
+	"scopeName": "text.keisa"
+}
