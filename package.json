@@ -3,14 +3,14 @@
   "displayName": "Keisa syntaxes",
   "description": "Lightweight documentation format with clean syntax",
   "keywords": ["keisa", "documentation", "syntaxes", "syntax", "language"],
-   
+  "icon": "images/keisa.png",
   "version": "0.1.0",
   "license":"MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/vandi37/Keisa"
   },
-  "publisher": "vandi37",
+  "publisher": "keisa",
   "author": {
     "email": "Lev-person11@yandex.ru",
     "name": "Lev"
