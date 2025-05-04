@@ -1,7 +1,9 @@
 {
-  "name": "simple-documentation",
-  "displayName": "Simple documentation",
-  "description": "A simple documentation format",
+  "name": "keisa",
+  "displayName": "Keisa syntaxes",
+  "description": "Lightweight documentation format with clean syntax",
+  "keywords": ["keisa", "documentation", "syntaxes", "syntax", "language"],
+   
   "version": "0.1.0",
   "license":"MIT",
   "repository": {
