@@ -2,7 +2,17 @@
   "name": "simple-documentation",
   "displayName": "Simple documentation",
   "description": "A simple documentation format",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "license":"MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vandi37/Keisa"
+  },
+  "publisher": "vandi37",
+  "author": {
+    "email": "Lev-person11@yandex.ru",
+    "name": "Lev"
+  },
   "engines": {
     "vscode": "^1.99.0"
   },

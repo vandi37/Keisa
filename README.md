@@ -70,25 +70,6 @@ Any text not matching other rules.
 
 ---
 
-## **Example File**  
-```keisa
-# Server Configuration  
-
-server:  
-    $ string host  
-    $ int port  
-    $ bool ssl  
-
-> Connection settings  
-- host: "localhost"  
-- port: 8080  
-- ssl: true  
-
-*Warning*: Do not modify `secret_key`!  
-```
-
----
-
 ## **Why "Keisa"?**  
 The name comes from Japanese **「軽さ」** (lightness), reflecting:  
 - Minimalist syntax  
